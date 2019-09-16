@@ -1,0 +1,73 @@
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top:40px;
+  letter-spacing: 1px;
+}
+
+/*p {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top:20px;
+  width: 600px;
+}*/
+
+article {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #616264;
+  font-size: 14px;
+}
+
+textarea {
+  width: 600px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: #fdeddf;
+  border: 2px solid black;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  margin-left: 815px;
+}
+
+#origin-text {
+  width: 595px;
+  margin: 0px 400px 60px 400px;
+  font-size: 16px;
+}
+
+#test-area{
+  border-width: 3px;
+}
+
+.timer {
+  margin-left: 400px;
+}
+
+.introduction {
+  width: 600px;
+  margin: 0px 400px 0px 400px;
+  font-size: 12px;
+}

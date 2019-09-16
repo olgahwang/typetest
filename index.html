@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Typing speed test</title>
+  <script src="script.js" async></script>
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style ="background-color: #fdeddf">
+  <header class="masthead">
+    <h1>Test your typing speed</h1>
+  </header>
+
+  <main class="main">
+    <article class="introduction">
+      <p>Duplicate the provided text in the field below. The timer starts when you start typing, and ends when the typed text is exactly the same compared to provided one.</p>
+    </article><!--.intro-->
+    <section class="test-area">
+      <div id="origin-text">
+        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will.</p>
+      </div><!--#origin-text-->
+
+      <div class="test-wrapper">
+        <textarea id ="test-area" name="textarea" rows="8" placeholder="Type text here."></textarea>
+      </div><!--.test-wrapper-->
+
+      <div class="meta">
+        <section id="clock">
+          <div class="timer">00:00:00</div>
+        </section>
+        <button id="reset">Reset</button>
+      </div><!--.meta-->
+    </section><!--.test-area-->
+  </main>
+</body>
+</html>
